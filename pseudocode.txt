@@ -10,7 +10,14 @@ ELSE
     READ AND WRITE "Amount of Food" with number
 END IF
 Press button "food confirmation"
+IF WHILE want to add food menu "menu"
+         Do "READ AND WRITE "Food Name" with string"
+ELSE
+    Press button "shopping cart menu"
+END IF
+Pess button "food checklist"
 READ AND WRITE "Enter shipping address" with string
 Press button "make payment"
+READ AND WRITE "proof of payment" with string
 Finish
     
